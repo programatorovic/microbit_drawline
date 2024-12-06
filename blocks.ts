@@ -15,6 +15,25 @@ namespace drawLine {
     //% x2.shadow="math_number" x2.defl=4
     //% y2.shadow="math_number" y2.defl=4
     export function line(x1: number, y1: number, x2: number, y2: number): void {
-        drawLine(x1, y1, x2, y2); // Zavolaj funkciu na kreslenie čiary
+        // Algoritmus na kreslenie čiary
+        let dx = Math.abs(x2 - x1);
+        let dy = Math.abs(y2 - y1);
+        let sx = (x1 < x2) ? 1 : -1;
+        let sy = (y1 < y2) ? 1 : -1;
+        let err = dx - dy;
+
+        while (true) {
+            led.plot(x1, y1); // Zapni LED na súradniciach [x1, y1]
+            if (x1 === x2 && y1 === y2) break; // Ak sme dosiahli koncový bod, zastav
+            let e2 = 2 * err;
+            if (e2 > -dy) {
+                err -= dy;
+                x1 += sx;
+            }
+            if (e2 < dx) {
+                err += dx;
+                y1 += sy;
+            }
+        }
     }
 }
