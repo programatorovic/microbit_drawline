@@ -1,15 +1,8 @@
-# Draw Line Extension
+# Ciara
 
-This MakeCode extension provides a simple way to draw lines on the micro:bit LED matrix using the Bresenham algorithm.
+Toto rozšírenie umožňuje kreslenie čiar na LED displeji Micro:bitu.
 
-## Features
-- Draws a line between two points on the 5x5 LED matrix.
-- Accepts input as numbers, variables, or sensor data.
+## Použitie
 
-## How to Use
-1. Add the **"Draw Line"** category to your MakeCode project by including this extension.
-2. Use the `line from x1 y1 to x2 y2` block to draw a line between two points.
-
-## Example
-```blocks
-drawLine.line(0, 0, 4, 4)
+1. Vložiť nový príkaz "nakresli čiaru" do vášho kódu v MakeCode.
+2. Nastaviť parametre `x1, y1` a `x2, y2` pre počiatočný a koncový bod čiary.

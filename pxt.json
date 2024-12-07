@@ -1,13 +1,13 @@
 {
-  "name": "Draw Line",
-  "version": "0.0.8",
-  "description": "A MakeCode extension for drawing lines on the micro:bit LED matrix.",
+  "name": "Ciara",
+  "version": "0.0.1",
+  "description": "Rozšírenie na kreslenie čiar na LED displeji Micro:bitu.",
   "files": [
     "main.ts",
-    "blocks.ts"
+    "README.md"
   ],
-  "public": true,
-  "dependencies": {
-    "core": "*"
-  }
+  "dependencies": {},
+  "supportedTargets": [
+    "microbit"
+  ]
 }
