@@ -1,14 +1,12 @@
 {
   "name": "Draw Line",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "A MakeCode extension for drawing lines on the micro:bit LED matrix.",
-  "dependencies": {
-    "core": "*"
-  }
   "files": [
     "blocks.ts"
   ],
   "public": true,
-  "url": "https://github.com/programatorovic/microbit_drawline.git",
-  "icon": "icon.png"
+  "dependencies": {
+    "core": "*"
+  }
 }
