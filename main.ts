@@ -1,6 +1,6 @@
 //% weight=100 color=#0fbc11 icon="\uf1ec"
-//% block="Ciara"
-namespace Ciara {
+//% block="Graphics"
+namespace Graphics {
     //% block="nakresli čiaru z [$x1, $y1] do [$x2, $y2]" blockGap=8
     //% x1.min=0 x1.max=4 y1.min=0 y1.max=4 inlineInputMode=inline
     //% x2.min=0 x2.max=4 y2.min=0 y2.max=4 inlineInputMode=inline
@@ -25,6 +25,20 @@ namespace Ciara {
             if (e2 <= dx) {
                 err += dx;
                 y1 += sy;
+            }
+        }
+    }
+
+    //% block="nakresli kruh so stredom [$x, $y] a polomerom $r" blockGap=8
+    //% x.min=0 x.max=4 y.min=0 y.max=4 inlineInputMode=inline
+    //% r.min=0 r.max=4
+    export function drawCircle(x: number, y: number, r: number): void {
+        for (let i = 0; i < 360; i++) {
+            let rad = i * Math.PI / 180;
+            let cx = Math.round(x + r * Math.cos(rad));
+            let cy = Math.round(y + r * Math.sin(rad));
+            if (cx >= 0 && cx < 5 && cy >= 0 && cy < 5) {
+                led.plot(cx, cy);
             }
         }
     }

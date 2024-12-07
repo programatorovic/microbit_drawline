@@ -1,10 +1,11 @@
 {
-  "name": "Ciara",
-  "version": "0.1.1",
-  "description": "Rozšírenie na kreslenie čiar na LED displeji Micro:bitu.",
+  "name": "Graphics",
+  "version": "0.0.1",
+  "description": "Rozšírenie na kreslenie čiar a kruhov na LED displeji Micro:bitu.",
   "files": [
     "main.ts",
-    "README.md"
+    "README.md",
+    "icon.png"
   ],
   "dependencies": {},
   "supportedTargets": [
