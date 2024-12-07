@@ -1,10 +1,10 @@
 {
   "name": "Draw Line",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A MakeCode extension for drawing lines on the micro:bit LED matrix.",
   "files": [
-    "blocks.ts",
-    "main.ts"
+    "main.ts",
+    "blocks.ts"
   ],
   "public": true,
   "dependencies": {
