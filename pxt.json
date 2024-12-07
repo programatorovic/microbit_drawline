@@ -1,6 +1,6 @@
 {
   "name": "Ciara",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rozšírenie na kreslenie čiar na LED displeji Micro:bitu.",
   "files": [
     "main.ts",
