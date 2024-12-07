@@ -15,7 +15,6 @@ namespace drawLine {
     //% x2.shadow="math_number" x2.defl=4
     //% y2.shadow="math_number" y2.defl=4
     export function line(x1: number, y1: number, x2: number, y2: number): void {
-        // Algoritmus na kreslenie čiary
         let dx = Math.abs(x2 - x1);
         let dy = Math.abs(y2 - y1);
         let sx = (x1 < x2) ? 1 : -1;
