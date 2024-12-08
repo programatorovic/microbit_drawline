@@ -1,4 +1,4 @@
-//% weight=100 color=#0fbc11 icon="\uf1ec"
+//% weight=100 color=#0fbc11 icon="\uf061"
 //% block="Graphics"
 namespace Graphics {
     //% block="nakresli čiaru z [$x1, $y1] do [$x2, $y2]" blockGap=8
