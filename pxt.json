@@ -7,7 +7,9 @@
     "README.md",
     "icon.png"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "microbit_graphics": "https://github.com/programatorovic/microbit_graphics.git"
+  },
   "supportedTargets": [
     "microbit"
   ]
