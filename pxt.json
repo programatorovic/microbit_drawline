@@ -1,11 +1,11 @@
 {
   "name": "Graphics",
-  "version": "0.1.5",
-  "description": "A MakeCode extension for drawing lines on the micro:bit LED matrix.",
+  "version": "0.1.4",
+  "description": "Rozšírenie na kreslenie čiar a kruhov na LED displeji Micro:bitu.",
   "files": [
     "main.ts",
-    "blocks.ts",
-    "README.md"
+    "README.md",
+    "icon.png"
   ],
   "dependencies": {},
   "supportedTargets": [
