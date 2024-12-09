@@ -1,16 +1,13 @@
 {
-  "name": "Graphics",
-  "version": "0.1.5",
-  "description": "Rozšírenie na kreslenie čiar a kruhov na LED displeji Micro:bitu.",
+  "name": "Draw Line",
+  "version": "0.0.8",
+  "description": "A MakeCode extension for drawing lines on the micro:bit LED matrix.",
   "files": [
     "main.ts",
-    "README.md",
-    "icon.png"
+    "blocks.ts"
   ],
+  "public": true,
   "dependencies": {
-    "microbit_graphics": "https://github.com/programatorovic/microbit_graphics.git"
-  },
-  "supportedTargets": [
-    "microbit"
-  ]
+    "core": "*"
+  }
 }
