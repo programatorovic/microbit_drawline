@@ -1,6 +1,6 @@
 {
   "name": "Graphics",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "Rozšírenie na kreslenie čiar a kruhov na LED displeji Micro:bitu.",
   "files": [
     "main.ts",
